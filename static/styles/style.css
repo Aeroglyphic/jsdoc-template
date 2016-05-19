@@ -726,6 +726,11 @@ h4:before {
   position: fixed;
   width: 268px;
   margin-left: -15px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  z-index: 10;
+  bottom: 0;
+  top: 53px;
 }
 
 .sidebar ul,
