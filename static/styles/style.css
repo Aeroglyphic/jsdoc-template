@@ -673,8 +673,8 @@ li.active a {
 }
 
 .overview-back {
-  margin: 32px 0 10px;
-  padding-bottom: 10px;
+  margin: 32px 0 13px;
+  padding-bottom: 13px;
   border-bottom: 1px solid #ccc;
   padding-left: 15px;
 }
@@ -717,9 +717,26 @@ h4:before {
 }
 
 .sidebar h3 {
-  border-bottom: 1px solid #ccc;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  border-top: 1px solid #ccc;
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+
+.sidebar>ul:first-of-type >li>a {
+ font-weight: 600;
+ color: #000;
+}
+
+nav h2 a {
+  margin-top: 13px;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  line-height: 24px;
+  margin: 15px 0 10px;
+  padding: 0;
+  color: #000;
 }
 
 .sidebar {
