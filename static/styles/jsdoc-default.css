@@ -129,7 +129,7 @@ section {
   font-weight: lighter;
 }
 
-nav {
+/*nav {
   float: left;
   display: block;
   width: 250px;
@@ -137,7 +137,7 @@ nav {
   overflow: auto;
   position: fixed;
   height: 100%;
-}
+}*/
 
 nav h3 {
   margin-top: 12px;
