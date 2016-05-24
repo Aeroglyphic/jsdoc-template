@@ -374,6 +374,7 @@ footer {
    color: #4D4E53;
    font-family: Consolas, Monaco, 'Andale Mono', monospace;
    font-size: 100%;
+   background: transparent;
 }
 
 .params td, .params th, .props td, .props th {

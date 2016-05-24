@@ -844,6 +844,10 @@ pre.prettyprint {
   background-color: #373e3f;
 }
 
+table>tbody>tr:nth-of-type(even) {
+    background-color: #f9f9f9;
+}
+
 /* ------------------------------------------------------------------------------------------
  * Dark Theme
  * ------------------------------------------------------------------------------------------ */
@@ -854,7 +858,14 @@ pre.prettyprint {
 .dark h3,
 .dark li,
 .dark a,
-.dark .sidebar ul > li > a {
+.dark h4,
+.dark h5,
+.dark .details,
+.dark .sidebar ul > li > a,
+.dark .params .name,
+.dark .props .name,
+.dark .name code,
+.dark footer {
   color: #fff;
 }
 
@@ -886,7 +897,7 @@ pre.prettyprint {
 }
 
 .dark section {
-  border-top: 1px solid rgba(0,0,0,0.3);
+  border-top:none;
 }
 
 .dark article h1 {
@@ -1000,5 +1011,9 @@ pre.prettyprint {
 .dark #generator .content{
   border-top: 1px solid rgba(0,0,0,0.4);
   color: #666;
+}
+
+.dark table>tbody>tr:nth-of-type(even) {
+    background-color: rgba(0,0,0,0.4);
 }
 
