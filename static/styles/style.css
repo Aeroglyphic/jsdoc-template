@@ -45,13 +45,13 @@ h2 {
   font-weight: 300;
   font-size: 24px;
   line-height: 26px;
-  padding: 0 0 52px 0;
+  padding: 0 0 26px 0;
   margin: 0px 0 26px 0;
 }
 
 section {
 /*  border-top: 1px solid #ccc;*/
-  padding: 0px 0;
+  padding: 20px 0 0 0;
 }
 
 section h1 {
@@ -257,7 +257,7 @@ code, kbd, pre, samp {
 }
 
 p > code {
-  background-color: rgba(0,0,0,0.1);
+  background-color: rgba(0,0,0,0.05);
   border-radius: 0px;
   color: #000;
 }
@@ -281,6 +281,8 @@ pre code {
   border-bottom-color: transparent;
   font-size: 15px;
   padding: 7px 15px;
+  font-weight: 400;
+  letter-spacing: 0px;
 }
 
 .nav-tabs {
@@ -294,13 +296,13 @@ pre code {
   border-top-left-radius: 2px;
   font-weight: 400;
   font-size: 15px;
-  background-color: #9a9a9a;
-  color: #fff;
+  background-color: #484F50;
+  color: #ccc;
   padding: 7px 15px 12px 15px;
 }
 
 .nav-tabs>li>a:hover {
-  background-color: #737373;
+  background-color: #586163;
   border: none;
 }
 
@@ -893,11 +895,11 @@ table>tbody>tr:nth-of-type(even) {
 .dark section h1 {
   font-weight: 400;
   letter-spacing: .7px;
-  color: rgba(255,255,255,0.5);
+  color: rgba(255,255,255,0.7);
 }
 
 .dark section {
-  border-top:none;
+  border-top: 1px solid #434B50;
 }
 
 .dark article h1 {
@@ -912,7 +914,7 @@ table>tbody>tr:nth-of-type(even) {
 }
 
 .dark p > code {
-    background-color: rgba(0,0,0,0.3);
+    background-color: #434B50;
     border-radius: 0px;
     color: #fff;
     font-size: 13px;
@@ -934,7 +936,7 @@ table>tbody>tr:nth-of-type(even) {
   font-weight: 400;
   color: #fff;
   letter-spacing: 0.7px;
-/*  border-top: 1px solid rgba(0,0,0,0.3);*/
+  border-top: 1px solid #434B50;
 }
 
 .dark .sidenav > li > a:hover {
@@ -975,19 +977,19 @@ table>tbody>tr:nth-of-type(even) {
 .dark .nav-tabs>li>a:hover{
   background-color: rgba(0,0,0,0.3);
   font-weight: 400;
-  color: #fff;
+  color: #ccc;
 }
 
 .dark th {
-    background-color: rgba(0,0,0,0.4);;
+    background-color: #333C40;
     font-weight: 400;
-    border: 1px solid #1c1c1c;
+    border: 1px solid #434B50;
     color: #fff;
     letter-spacing: 0.7px;
 }
 
 .dark td {
-  border: 1px solid #1c1c1c;
+  border: 1px solid #434B50;
   color: #ccc;
   font-weight: 300;
 }
@@ -1009,11 +1011,20 @@ table>tbody>tr:nth-of-type(even) {
 }
 
 .dark #generator .content{
-  border-top: 1px solid rgba(0,0,0,0.4);
-  color: #666;
+  border-top: 1px solid #434B50;
+  color: #434B50;
 }
 
 .dark table>tbody>tr:nth-of-type(even) {
-    background-color: rgba(0,0,0,0.4);
+   background-color: #333C40;
+}
+
+.dark .sidebar h3 {
+  border-top: 1px solid #434b50;
+}
+
+.dark .overview-back,
+.dark .param-type {
+  border-bottom: 1px solid #434b50;
 }
 
