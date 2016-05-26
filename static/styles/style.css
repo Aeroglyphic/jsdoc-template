@@ -6,12 +6,16 @@
   max-width: 1280px;
 }*/
 
-body, p, a, div {
+body, p, div {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 17px;
   line-height: 26px;
   color: #555;
   font-weight: 400;
+}
+
+a, a:hover, a:active, a:focus{
+  color:#ff0c3e;
 }
 
 td.code {
@@ -22,6 +26,10 @@ td.code {
   vertical-align: top;
 }
 
+td > code {
+  padding: 0px;
+}
+
 #content {
   padding-top: 16px;
  /* z-Index: -1;*/
@@ -30,12 +38,13 @@ td.code {
 
 p {
   color: #555;
+  margin-bottom: 12px;
 }
 
 h1 {
   font-size: 48px;
   font-weight: 600;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
   color: #333;
   margin-bottom: 10px;
 }
@@ -45,13 +54,13 @@ h2 {
   font-weight: 300;
   font-size: 24px;
   line-height: 26px;
-  padding: 0 0 26px 0;
-  margin: 0px 0 26px 0;
+  padding: 0;
+  margin: 0;
 }
 
 section {
 /*  border-top: 1px solid #ccc;*/
-  padding: 20px 0 0 0;
+  padding: 0;
 }
 
 section h1 {
@@ -81,28 +90,43 @@ article h1 {
 }
 
 article h2 {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: 'Titillium Web', sans-serif;
   font-weight: 600;
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 32px;
+  line-height: 32px;
+  text-transform: none;
+  padding: 26px 0;
+  letter-spacing: 0px;
   margin: 0;
-  padding: 26px 0 13px 0;
+  color: #333;
 }
 
 article h3 {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: 'Titillium Web', sans-serif;
   font-weight: 600;
-  font-size: 16px;
-  line-height: 18px;
-  margin: 0 0 10px 0;
+  font-size: 26px;
+  line-height: 26px;
+  padding: 26px 0;
+  color: #333;
 }
 
 article h4 {
   font-family: "Source Sans Pro", sans-serif;
-  font-weight: 600;
-  font-size: 14px;
+  font-weight: 400;
+  font-size: 17px;
   line-height: 16px;
-  margin: 0 0 8px 0;
+  margin: 0 0 26px 0;
+  padding-top: 52px;
+}
+
+h5 {
+  font-size: 21px;
+  font-weight: 600;
+  font-family: 'Titillium Web', sans-serif;
+  color: #333;
+  margin: 0px;
+  padding: 26px 0 26px 0;
+  line-height: 26px;
 }
 
 table {
@@ -183,6 +207,30 @@ td > p {
   font-size: 22px;
   line-height: 26px;
   padding-top: 14px;
+}
+
+.details dt {
+  font-weight: 600;
+  padding-right: 12px;
+  width: auto;
+}
+
+ul.dummy {
+  padding-left: 0;
+}
+
+ul.dummy > li{
+  margin-left: 0;
+}
+
+dd {
+  font-weight: 400;
+}
+
+dt {
+  font-weight: 600;
+  padding-right: 12px;
+  line-height: 26px;
 }
 
 /* ------------------------------------------------------------------------------------------
@@ -718,6 +766,10 @@ h4:before {
   padding-bottom: 12px;
 }
 
+.sidebar ul > li > a:hover {
+  color:#ff0c3e;
+}
+
 .sidebar h3 {
   border-top: 1px solid #ccc;
   padding-top: 13px;
@@ -727,6 +779,10 @@ h4:before {
 .sidebar>ul:first-of-type >li>a {
  font-weight: 600;
  color: #000;
+}
+
+.sidebar>ul:first-of-type >li>a:hover {
+  color:#ff0c3e;
 }
 
 nav h2 a {
@@ -892,6 +948,11 @@ table>tbody>tr:nth-of-type(even) {
   color: #ccc;
 }
 
+.dark h3, .dark h5 {
+  font-weight: 400;
+  color: #fff;
+}
+
 .dark section h1 {
   font-weight: 400;
   letter-spacing: .7px;
@@ -908,10 +969,7 @@ table>tbody>tr:nth-of-type(even) {
   color: #fff;
 }
 
-.dark h3 {
-  font-weight: 400;
-  color: #fff;
-}
+
 
 .dark p > code {
     background-color: #434B50;
@@ -1023,8 +1081,14 @@ table>tbody>tr:nth-of-type(even) {
   border-top: 1px solid #434b50;
 }
 
-.dark .overview-back,
-.dark .param-type {
+.dark .overview-back{
   border-bottom: 1px solid #434b50;
 }
 
+.dark dl.param-type {
+  border-bottom: 1px solid #434b50;
+}
+
+.dark .details dt{
+  font-weight: 400;
+}
