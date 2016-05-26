@@ -116,7 +116,7 @@ article h4 {
   font-size: 17px;
   line-height: 16px;
   margin: 0 0 26px 0;
-  padding-top: 52px;
+ /* padding-top: 52px;*/
 }
 
 h5 {
