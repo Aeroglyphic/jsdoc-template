@@ -18,6 +18,10 @@ a, a:hover, a:active, a:focus{
   color:#ff0c3e;
 }
 
+b, strong {
+    font-weight: 600;
+}
+
 td.code {
   font-size: 14px;
   font-family: "Source Code Pro";
@@ -93,10 +97,10 @@ article h1 {
 article h2 {
   font-family: 'Titillium Web', sans-serif;
   font-weight: 600;
-  font-size: 32px;
+  font-size: 40px;
   line-height: 32px;
   text-transform: none;
-  padding: 26px 0;
+  padding: 52px 0 26px 0;
   letter-spacing: 0px;
   margin: 0;
   color: #333;
@@ -104,20 +108,27 @@ article h2 {
 
 article h3 {
   font-family: 'Titillium Web', sans-serif;
-  font-weight: 600;
-  font-size: 26px;
-  line-height: 26px;
-  padding: 26px 0;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 32px;
+  padding: 26px 0 26px 0;
   color: #333;
 }
 
 article h4 {
   font-family: "Source Sans Pro", sans-serif;
-  font-weight: 400;
-  font-size: 17px;
+  font-weight: 600;
+  font-size: 22px;
   line-height: 16px;
   margin: 0 0 26px 0;
- /* padding-top: 52px;*/
+  padding-top: 52px;
+  color: #333;
+}
+
+article h4 > code {
+  font-weight: normal;
+  font-size: 18px;
+  color: #333;
 }
 
 h5 {
@@ -300,9 +311,25 @@ pre.language-api .pun {
   color: #65B042;
 }
 
+blockquote {
+  padding: 8px 8px 8px 14px;
+  margin-bottom: 26px;
+  margin-top: 26px;
+  font-size: 17.5px;
+  border-left: 3px solid #eee;
+  background-color: rgba(0, 0, 0, 0.02);
+}
+
+
 code, kbd, pre, samp {
   font-family: 'Droid Sans Mono', Menlo, Monaco,Consolas, "Courier New", monospace;
   font-size: 14px;
+}
+
+code {
+  background-color: rgba(0,0,0,0.05);
+  border-radius: 0px;
+  color: #000;
 }
 
 p > code {
@@ -788,7 +815,7 @@ h4:before {
 
 nav h2 a {
   margin-top: 13px;
-  font-size: 13px;
+  font-size: 15px;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 700;
