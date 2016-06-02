@@ -1,6 +1,6 @@
 {
   "name": "interledger-jsdoc-template",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A JSDoc template for interledger.org",
   "main": "publish.js",
   "scripts": {
@@ -11,10 +11,12 @@
     "url": "https://github.com/interledger/jsdoc-template.git"
   },
   "author": "Ben Stein-Lobovits <ben@ripple.com>",
-  "licenses": [{
-    "type": "Apache-2.0",
-    "url": "http://www.apache.org/licenses/LICENSE-2.0"
-  }],
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
   "bugs": {
     "url": "https://github.com/interledger/jsdoc-template/issues"
   },
